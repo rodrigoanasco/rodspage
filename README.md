@@ -1,12 +1,16 @@
-# Notes for running the program
-- It should be running in Firefox (during testing mode)
-- If you try to run it in Chrome, apparently there is an ussue with:
-``` <script type="module" ...> ```
-In order to avoid that, I chose to use Firefox
+# React + Vite
 
-** Once you press run and debug, it is possible that it will appear "file index.html not found", to solve this, just write the actuall path in the URL bar and it should fix everything **
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Another issue encountered was when trying to make index.html read main.js, however that was easily solved just by changing the "src="
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-New update: managed to do a vite project inside
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
