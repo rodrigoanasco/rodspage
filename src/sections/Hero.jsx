@@ -24,23 +24,23 @@ const Hero = () => {
         max: 10 
     },
     rotationX: {
-        value: 2.5,
+        value: 0,
         min: -10,
         max: 10 
     },
     rotationY: {
-        value: 2.5,
+        value: 0,
         min: -10,
         max: 10 
     },
     rotationZ: {
-        value: 2.5,
+        value: 0,
         min: -10,
         max: 10 
     },
     scaleX: {
-        value: 2.5,
-        min: -10,
+        value: 1,
+        min: 0.1,
         max: 10 
     }
   })
