@@ -4,6 +4,8 @@ import { Canvas } from "@react-three/fiber"
 import { Suspense } from "react"
 import HackerRoom from "../components/HackerRoom"
 import { Leva, useControls } from "leva"
+import { calculateSizes } from "../constants"
+import { useMediaQuery } from "react-responsive"
 
 
 const Hero = () => {
@@ -44,6 +46,11 @@ const Hero = () => {
         max: 10 
     }
   })
+    const isSmall = useMediaQuery({maxWidth: 440})
+    const isMobile = useMediaQuery({maxWidth: 768})
+    const isTablet = useMediaQuery({minWidth: 768, maxWidth: 1024})
+    
+    const sizes = calculateSizes(isSmall, isMobile, isTablet);
     return (
     <section className="min-h-screen w-full flex flex-col relative">
         <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
@@ -61,12 +68,12 @@ const Hero = () => {
             <Leva />
             <Canvas className='w-full h-full'>
                 <Suspense fallback={<CanvasLoader/>}>
-                    <PerspectiveCamera makeDefault position={[0, 0, 30]}/>
+                    <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
                     <HackerRoom 
                     //scale={1.5} 
-                    position={[0.7, -9.3, 2.5]} 
-                    rotation={[0.4, -0.2, 0.0]}
-                    scale={[1.5, 1.5, 1.5]}
+                    position={sizes.deskPosition} 
+                    rotation={[0.6, -0.35, 0.1]}
+                    scale={sizes.deskScale}
                     />
                     <ambientLight intensity={1}/>
                     <directionalLight position={[10, 10, 10]} intensity={0.5}/>
