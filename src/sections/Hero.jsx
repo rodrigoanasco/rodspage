@@ -53,7 +53,7 @@ const Hero = () => {
             </p>
             
             <p className="hero_tag text-gray_gradient text-center">
-                Come and see my portfolio!
+                Welcome to my place!
             </p>
         </div>
 
@@ -64,7 +64,7 @@ const Hero = () => {
                     <PerspectiveCamera makeDefault position={[0, 0, 30]}/>
                     <HackerRoom 
                     //scale={1.5} 
-                    position={[0.0, -1.7, 0.1]} 
+                    position={[0.7, -9.3, 2.5]} 
                     rotation={[0.4, -0.2, 0.0]}
                     scale={[1.5, 1.5, 1.5]}
                     />
