@@ -6,6 +6,7 @@ import HackerRoom from "../components/HackerRoom"
 import { Leva, useControls } from "leva"
 import { calculateSizes } from "../constants"
 import { useMediaQuery } from "react-responsive"
+import Target from "../components/Target"
 
 
 const Hero = () => {
@@ -75,6 +76,12 @@ const Hero = () => {
                     rotation={[0.6, -0.35, 0.1]}
                     scale={sizes.deskScale}
                     />
+
+                    <group>
+                        <Target position={sizes.targetPosition}/>
+
+                    </group>
+
                     <ambientLight intensity={1}/>
                     <directionalLight position={[10, 10, 10]} intensity={0.5}/>
                 </Suspense>
