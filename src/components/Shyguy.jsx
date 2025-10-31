@@ -10,22 +10,163 @@ import React, { useRef } from 'react'
 import { Float, useGLTF } from '@react-three/drei'
 
 const Shyguy = (props) => {
-  const { nodes, materials } = useGLTF('/models/shyguy.glb')
+  const { nodes, materials } = useGLTF('models/laptop_hp_pavilion_x360.glb')
   return (
     <Float floatIntensity={1}>
-    <group {...props}>
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Object_2.geometry}
-        material={materials.shyguy_tex}
-        rotation={[-Math.PI / 2, 0, 0]}
-      />
+    <group {...props} dispose={null}>
+      <group rotation={[-Math.PI / 2, 0, 0]} scale={0.015}>
+        <group rotation={[Math.PI / 2, 0, 0]}>
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface443_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface444_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface445_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface537_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface538_back_part_0.geometry}
+            material={materials.back_part}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface547_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface558_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface559_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface560_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface531_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface563_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface546_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface470_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface556_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface536_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface552_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface564_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface539_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface440_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface441_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface543_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface549_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.polySurface551_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.logo_low_HP_Pavilion_x360_14_dh_0.geometry}
+            material={materials.HP_Pavilion_x360_14_dh}
+          />
+        </group>
+      </group>
     </group>
     </Float>
   )
 }
 
-useGLTF.preload('/models/shyguy.glb')
+useGLTF.preload('models/laptop_hp_pavilion_x360.glb')
 
 export default Shyguy

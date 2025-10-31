@@ -9,7 +9,7 @@ import { useMediaQuery } from "react-responsive"
 import Target from "../components/Target"
 import Banana from "../components/Banana"
 import Shyguy from "../components/Shyguy"
-import OIIA from "../components/OIIA"
+import Camera from "../components/Camera"
 
 
 const Hero = () => {
@@ -81,10 +81,10 @@ const Hero = () => {
                     />
 
                     <group>
-                        <Target position={sizes.targetPosition}/>
-                        <Banana scale={0.8} position={sizes.reactLogoPosition}/>
-                        <Shyguy scale={0.02} position={sizes.ringPosition} />
-                        
+                        <Target scale={0.1} position={sizes.targetPosition}/>
+                        <Banana scale={2} rotation={[1, 1, 1]} position={sizes.reactLogoPosition}/>
+                        <Shyguy scale={4} rotation={[0.5, -0.5, 0]} position={sizes.ringPosition} />
+                        <Camera rotation={[0, 4.5, 0]} scale={13} position={sizes.cubePosition} />
                     </group>
 
                     <ambientLight intensity={1}/>
