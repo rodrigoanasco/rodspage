@@ -10,6 +10,7 @@ import Target from "../components/Target"
 import Banana from "../components/Banana"
 import Shyguy from "../components/Shyguy"
 import Camera from "../components/Camera"
+import HeroCamera from "../components/HeroCamera"
 
 
 const Hero = () => {
@@ -73,12 +74,14 @@ const Hero = () => {
             <Canvas className='w-full h-full'>
                 <Suspense fallback={<CanvasLoader/>}>
                     <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
-                    <HackerRoom 
-                    //scale={1.5} 
-                    position={sizes.deskPosition} 
-                    rotation={[0.68, -0.4, 0.03]}
-                    scale={sizes.deskScale}
-                    />
+                    <HeroCamera isMobile={isMobile}>
+                        <HackerRoom 
+                        //scale={1.5} 
+                        position={sizes.deskPosition} 
+                        rotation={[0.68, -0.4, 0.03]}
+                        scale={sizes.deskScale}
+                        />
+                    </HeroCamera>
 
                     <group>
                         <Target scale={0.1} position={sizes.targetPosition}/>
