@@ -11,12 +11,6 @@ const Banana = (props) => {
           <mesh
             castShadow
             receiveShadow
-            geometry={nodes.defaultMaterial.geometry}
-            material={materials['03___Default']}
-          />
-          <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.defaultMaterial_1.geometry}
             material={materials['09___Default']}
           />

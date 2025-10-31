@@ -11,6 +11,7 @@ import Banana from "../components/Banana"
 import Shyguy from "../components/Shyguy"
 import Camera from "../components/Camera"
 import HeroCamera from "../components/HeroCamera"
+import Button from "../components/Button"
 
 
 const Hero = () => {
@@ -93,7 +94,13 @@ const Hero = () => {
                     <ambientLight intensity={1}/>
                     <directionalLight position={[10, 10, 10]} intensity={0.5}/>
                 </Suspense>
-            </Canvas>
+            </Canvas> 
+        </div>
+
+        <div className="absolute bottom-2 left-0 right-0 w-full z-10 c-space">
+            <a href="#contact" className="w-fit">
+                <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
+            </a>
         </div>
     </section>
   )
