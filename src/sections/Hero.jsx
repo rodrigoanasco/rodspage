@@ -7,10 +7,14 @@ import { Leva, useControls } from "leva"
 import { calculateSizes } from "../constants"
 import { useMediaQuery } from "react-responsive"
 import Target from "../components/Target"
+import Banana from "../components/Banana"
+import Shyguy from "../components/Shyguy"
+import OIIA from "../components/OIIA"
 
 
 const Hero = () => {
-  const x = useControls('HackerRoom', {
+    //use <Leva/> inside the canvas in order to be able to move the images with this controller
+    const x = useControls('HackerRoom', {
     positionX: {
         value: 2.5,
         min: -10,
@@ -64,22 +68,23 @@ const Hero = () => {
                 Welcome to my place!
             </p>
         </div>
-
+  
         <div className="w-full h-full absolute insert-0">
-            <Leva />
             <Canvas className='w-full h-full'>
                 <Suspense fallback={<CanvasLoader/>}>
                     <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
                     <HackerRoom 
                     //scale={1.5} 
                     position={sizes.deskPosition} 
-                    rotation={[0.6, -0.35, 0.1]}
+                    rotation={[0.68, -0.4, 0.03]}
                     scale={sizes.deskScale}
                     />
 
                     <group>
                         <Target position={sizes.targetPosition}/>
-
+                        <Banana scale={0.8} position={sizes.reactLogoPosition}/>
+                        <Shyguy scale={0.02} position={sizes.ringPosition} />
+                        
                     </group>
 
                     <ambientLight intensity={1}/>
