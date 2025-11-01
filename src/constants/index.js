@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'UNIFY, your personal newcomer companion',
+    desc: 'On a mission to make resources, community and support accessible to all newcomers in Canada.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'A React Native app built with Expo, connecting directly to Supabase for backend services.',
+    href: 'https://unifysocial.ca/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -95,11 +95,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Panoramizer - tool to build panoramic images',
+    desc: 'Implemented custom FAST and FASTR (FAST + Harris) detectors, SIFT descriptors, RANSAC homography estimation, and image blending to build panoramic images.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'This project implements a complete image stitching pipeline using OpenCV in C++. It reproduces and extends a MATLAB implementation by re-creating the entire process from scratch in C++, from corner detection to panorama blending.',
+    href: 'https://github.com/rodrigoanasco/building-panoramas',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -132,11 +132,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'learnVerse - Skills as currency — a community marketplace that makes quality learning accessible.',
+    desc: 'LearnVerse is a universe of learning opportunities aligned with the UN’s Quality Education.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      "breaking down financial barriers by letting people trade skills as currency and making education truly accessible. We're running on a React.js frontend + Firebase backend and are integrating Azure Cognitive Services for real-time translation and voice capabilities.",
+    href: 'https://learn-verse-one.vercel.app/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -171,11 +171,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'ZIMA - Path Planning Algorithm',
+    desc: 'Pioneering the future of autonomous underwater vehicles at Simon Fraser University.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      ' Project ZIMA, an advanced Remotely Operated Vehicle (ROV) with a singular mission: to revolutionize hull cleaning in the maritime industry.',
+    href: 'https://subvision.ca/',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -208,11 +208,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Sentiment Analysis on Stock Market',
+    desc: 'A comprehensive data-driven project analyzing financial sentiment across multiple sources to predict stock market behavior. It integrates Reddit discussions, financial news, and economic indicators through advanced NLP and statistical models.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      'This project leverages TextBlob and FinBERT pipelines for sentiment extraction, harmonizes multi-source data with regression-based scaling, and visualizes sentiment trends from 2020–2024 alongside Apple stock performance. Designed to uncover correlations between public mood and market movements, it combines robust data engineering, visualization, and model training in Python.',
+    href: 'https://github.com/rodrigoanasco/Sentiment-Based-Stock-Market-Predictor',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
