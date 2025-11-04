@@ -62,7 +62,7 @@ const About = () => {
                     <p className='grid-headtext'>
                         Currently living in Vancouver
                     </p>
-                    <p className='grid-subtext'>
+                    <p className='grid-subtext pb-5'>
                         I moved to Canada in the summer of 2022 and instantly fell in love with Vancouver, a city that perfectly
                         blends innovation, culture, and breathtaking nature. Living here has been an incredible experience that 
                         fuels both my curiosity and creativity. As I continue to grow in my career, I’m excited to keep exploring 
