@@ -16,20 +16,30 @@ const About = () => {
         <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full'>
             <div className='col-span-1 xl:row-span-3'>
                 <div className='grid-container'>
-                    <img src="/assets/grid1.png" alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain'/>
+                    <img src="/assets/me_in_victoria.jpg" alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain'/>
                     <div>
                         <p className='grid-headtext'>Hi, I'm Rodrigo</p>
-                        <p className='grid-subtext'>Student at Simon Fraser University passionate about [...]</p>
+                        <p className='grid-subtext'>
+                            I’m a Computer Science student at Simon Fraser University, originally from Peru and now living in Canada. I’m passionate about Computer Vision, 
+                            AI, and full-stack development. Currently working on Unify (a mobile app supporting immigrants) and SubVision Robotics (where I am in chare of implementing
+                            a neural-inspired path planning project). I love exploring new challenges and collaborating on impactful AI and machine learning projects.
+                        </p>
                     </div>
                 </div>
             </div>
 
         <div className='col-span-1 xl:row-span-3'>
             <div className='grid-container'>
-                <img src="/assets/grid2.png" alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain'/>
+                <img src="/assets/grid2.png" alt='grid-2' className='w-full sm:w-[276px] h-fit pl-14 pt-8 pb-6 object-contain'/>
                 <div>
                     <p className='grid-headtext'>Tech Stack</p>
-                    <p className='grid-subtext'>I specialize in [...]</p>
+                    <p className='grid-subtext'>
+                        My tech stack covers a mix of AI, data science, and full-stack development. I work with C, C++, 
+                        Java, Python, JavaScript, and TypeScript, and build apps using React, React Native, Node.js, and 
+                        MongoDB. I also enjoy working with machine learning tools like TensorFlow, PyTorch, NumPy, Pandas, 
+                        and Scikit-learn, and use MySQL for database management. For design and front-end styling, I use 
+                        TailwindCSS, Bootstrap, and Figma, while Git, GitHub, and Linux are part of my everyday workflow.
+                    </p>
                 </div>
             </div>
         </div>
@@ -53,7 +63,9 @@ const About = () => {
                         Currently living in Vancouver
                     </p>
                     <p className='grid-subtext'>
-                        But available to reallocate for work!
+                        I moved to Canada in the summer of 2022 and have been enjoying life in beautiful Vancouver ever since. 
+                        It’s an inspiring city full of innovation and nature, and I look forward to exploring more of Canada (and 
+                        the world) as I continue growing in my career.
                     </p>
                     <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
                 </div>

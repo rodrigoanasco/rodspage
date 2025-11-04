@@ -16,6 +16,7 @@ import Button from "../components/Button"
 
 const Hero = () => {
     //use <Leva/> inside the canvas in order to be able to move the images with this controller
+    /*
     const x = useControls('HackerRoom', {
     positionX: {
         value: 2.5,
@@ -53,6 +54,7 @@ const Hero = () => {
         max: 10 
     }
   })
+    */
     const isSmall = useMediaQuery({maxWidth: 440})
     const isMobile = useMediaQuery({maxWidth: 768})
     const isTablet = useMediaQuery({minWidth: 768, maxWidth: 1024})
