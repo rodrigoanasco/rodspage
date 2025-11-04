@@ -44,7 +44,7 @@ const About = () => {
             </div>
         </div>
 
-        <div className='col-span-1 xl:row-span-4'>
+        <div className='col-span-1 xl:row-span-3'>
             <div className='grid-container'>
                 <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
                     <Globe 
@@ -63,16 +63,17 @@ const About = () => {
                         Currently living in Vancouver
                     </p>
                     <p className='grid-subtext'>
-                        I moved to Canada in the summer of 2022 and have been enjoying life in beautiful Vancouver ever since. 
-                        It’s an inspiring city full of innovation and nature, and I look forward to exploring more of Canada (and 
-                        the world) as I continue growing in my career.
+                        I moved to Canada in the summer of 2022 and instantly fell in love with Vancouver, a city that perfectly
+                        blends innovation, culture, and breathtaking nature. Living here has been an incredible experience that 
+                        fuels both my curiosity and creativity. As I continue to grow in my career, I’m excited to keep exploring 
+                        more of Canada (and the world), meeting inspiring people, and discovering new opportunities along the way.
                     </p>
-                    <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
+                    <Button name="Contact Me" isBeam containerClass="w-full"/>
                 </div>
             </div>
         </div>
 
-        <div className='xl:col-span-2 xl:row-span-3'>
+        <div className='xl:col-span-2 xl:row-span-2'>
             <div className='grid-container'>
                 <img src='/assets/grid3.png' alt='grid-3'
                 className='w-full sm:h-[266px] h-fit object-contain'/>
@@ -91,7 +92,7 @@ const About = () => {
         <div className='xl:col-span-1 xl:row-span-2'>
             <div className='grid-container'>
                 <img src='assets/grid4.png' alt='grid-4' className='w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top'/>
-                <div className='space-y-2'>
+                <div className=' pt-10 space-y-2'>
                     <p className='grid-subtext text-center'>
                         Contact me
                     </p>
