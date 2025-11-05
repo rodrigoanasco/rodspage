@@ -13,7 +13,7 @@ const About = () => {
   
     return (
     <section className='c-space my-20'>
-        <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full'>
+        <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 h-full'>
             <div className='col-span-1 xl:row-span-3'>
                 <div className='grid-container'>
                     <img src="/assets/me_in_victoria.jpg" alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain'/>
@@ -83,7 +83,9 @@ const About = () => {
                         My Passion for Coding
                     </p>
                     <p className='grid-subtext'>
-                        I love coding problems and building things through code...
+                        Coding has become a big part of who I am. I love solving problems, creating projects from scratch, and turning 
+                        ideas into something real through code. Whether it’s building apps, experimenting with AI, or improving my own tools, 
+                        I always enjoy the process of learning and discovering new things along the way.
                     </p>
                 </div>
             </div>
