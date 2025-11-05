@@ -18,7 +18,7 @@ const About = () => {
                 <div className='grid-container'>
                     <img src="/assets/me_in_victoria.jpg" alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain'/>
                     <div>
-                        <p className='grid-headtext'>Hi, I'm Rodrigo</p>
+                        <p className='grid-headtext'>A bit about me!</p>
                         <p className='grid-subtext'>
                             I’m a Computer Science student at Simon Fraser University, originally from Peru and now living in Canada. I’m passionate about Computer Vision, 
                             AI, and full-stack development. Currently working on Unify (a mobile app supporting immigrants) and SubVision Robotics (where I am in chare of implementing
