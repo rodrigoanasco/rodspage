@@ -6,7 +6,7 @@ const NavItems = () => {
         <ul className="nav-ul">
             {navLinks.map((item) => (
                 <li key={item.id} className="nav-li">
-                    <a href="href" className="nav-li_a" onClick={() => {}}>
+                    <a href={item.href} className="nav-li_a" onClick={() => {}}>
                         {item.name}
                     </a>
                 </li>
@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className='max-w-7xl mx-auto'>
             <div className='flex justify-between items-center py-5 mx-auto c-space'>
                 <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
-                    Rodrigo {/* Put an icon here, next to the name, this will take to the main menu*/}
+                    <img src="/assets/logoras.png" alt="logo" className="h-20"/> {/* Put an icon here, next to the name, this will take to the main menu*/}
                 </a>
                 <button onClick={toggleMenu} className="text-neutral-400 hover:text-white focuse:outline-none sm:hidden flex" aria-label="Toggle menu">
                     <img src={ isOpen ? "assets/close.svg" : "assets/menu.svg"} alt='toggle' className="w-6 h-6"/>
