@@ -53,7 +53,7 @@ const Contact = () => {
             <div className='contact-container'>
                 <h3 className='head-text'>Contact Me</h3>
                 <p className='text-lg text-white-600 mt-3'>
-                    I'm here to help! [expand]
+                    Whether you’re interested in collaborating, discussing a project, or just saying hi, feel free to reach out. I’ll do my best to respond as soon as possible.
                 </p>
                 <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col space-y-7'>
                     <label className='space-y-3'>
