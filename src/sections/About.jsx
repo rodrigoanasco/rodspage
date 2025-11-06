@@ -68,7 +68,10 @@ const About = () => {
                         fuels both my curiosity and creativity. As I continue to grow in my career, I’m excited to keep exploring 
                         more of Canada (and the world), meeting inspiring people, and discovering new opportunities along the way.
                     </p>
-                    <Button name="Contact Me" isBeam containerClass="w-full"/>
+                    <a href="#contact" className="w-fit">
+                        <Button name="Contact Me" isBeam containerClass="w-full"/>
+                    </a>
+
                 </div>
             </div>
         </div>

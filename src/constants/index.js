@@ -59,9 +59,9 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'UNIFY, your personal newcomer companion',
-    desc: 'On a mission to make resources, community and support accessible to all newcomers in Canada.',
+    desc: 'A React Native mobile app that helps newcomers settle in Canada by connecting them to community, resources, and guidance through an intuitive, AI-powered interface.',
     subdesc:
-      'A React Native app built with Expo, connecting directly to Supabase for backend services.',
+      'Built with Expo and Supabase, Unify integrates secure authentication, real-time data, and AI chat modules to assist immigrants with local resources, job information, and community engagement.',
     href: 'https://unifysocial.ca/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
@@ -72,33 +72,17 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight1.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+      { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
+      { id: 4, name: 'Framer Motion', path: '/assets/framer.png' },
     ],
   },
   {
-    title: 'Panoramizer - tool to build panoramic images',
-    desc: 'Implemented custom FAST and FASTR (FAST + Harris) detectors, SIFT descriptors, RANSAC homography estimation, and image blending to build panoramic images.',
+    title: 'Panoramizer - Tool to Build Panoramic Images',
+    desc: 'A C++ OpenCV application that automatically stitches overlapping images into seamless panoramas using custom feature detection and geometric alignment.',
     subdesc:
-      'This project implements a complete image stitching pipeline using OpenCV in C++. It reproduces and extends a MATLAB implementation by re-creating the entire process from scratch in C++, from corner detection to panorama blending.',
+      'Implements FAST and FASTR corner detectors, SIFT descriptors, KNN matching with Lowe’s ratio test, and RANSAC-based homography estimation for robust panorama creation and blending.',
     href: 'https://github.com/rodrigoanasco/building-panoramas',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
@@ -109,33 +93,16 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight2.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'C++', path: '/assets/cpp.svg' },
+      { id: 2, name: 'OpenCV', path: '/assets/opencv.png' },
+      { id: 3, name: 'CMake', path: '/assets/cmake.png' },
     ],
   },
   {
-    title: 'learnVerse - Skills as currency — a community marketplace that makes quality learning accessible.',
-    desc: 'LearnVerse is a universe of learning opportunities aligned with the UN’s Quality Education.',
+    title: 'LearnVerse - Skill Trading Marketplace',
+    desc: 'A full-stack platform where users trade skills as currency, promoting accessible education and global collaboration through a modern web interface.',
     subdesc:
-      "breaking down financial barriers by letting people trade skills as currency and making education truly accessible. We're running on a React.js frontend + Firebase backend and are integrating Azure Cognitive Services for real-time translation and voice capabilities.",
+      'Developed with React.js and Firebase, LearnVerse allows users to create profiles, post skill offers, chat in real time, and translate messages using Azure Cognitive Services for inclusivity.',
     href: 'https://learn-verse-one.vercel.app/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
@@ -148,33 +115,17 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight3.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'Firebase', path: '/assets/firebase.svg' },
+      { id: 3, name: 'Azure AI', path: '/assets/azure.svg' },
+      { id: 4, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
     ],
   },
   {
     title: 'ZIMA - Path Planning Algorithm',
-    desc: 'Pioneering the future of autonomous underwater vehicles at Simon Fraser University.',
+    desc: 'An AI-driven navigation system for autonomous underwater vehicles (AUVs), designed to optimize hull-cleaning and inspection tasks using 3D neural mapping.',
     subdesc:
-      ' Project ZIMA, an advanced Remotely Operated Vehicle (ROV) with a singular mission: to revolutionize hull cleaning in the maritime industry.',
+      'Developed the GBNN-based path planning algorithm, 3D hull discretization with KDTree, obstacle detection using plane fitting, and real-time visualization for robot path optimization.',
     href: 'https://subvision.ca/',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
@@ -185,33 +136,16 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight4.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'Python', path: '/assets/python.svg' },
+      { id: 2, name: 'Matplotlib', path: '/assets/matplotlib.png' },
+      { id: 3, name: 'NumPy', path: '/assets/numpy.svg' },
     ],
   },
   {
-    title: 'Sentiment Analysis on Stock Market',
-    desc: 'A comprehensive data-driven project analyzing financial sentiment across multiple sources to predict stock market behavior. It integrates Reddit discussions, financial news, and economic indicators through advanced NLP and statistical models.',
+    title: 'Sentiment-Based Stock Market Predictor',
+    desc: 'A data science project combining financial news and market indicators to predict stock trends through sentiment analysis and machine learning models.',
     subdesc:
-      'This project leverages TextBlob and FinBERT pipelines for sentiment extraction, harmonizes multi-source data with regression-based scaling, and visualizes sentiment trends from 2020–2024 alongside Apple stock performance. Designed to uncover correlations between public mood and market movements, it combines robust data engineering, visualization, and model training in Python.',
+      'Collected and processed multi-source financial data with GDELT, applied FinBERT and TextBlob for sentiment scoring, and trained ensemble models (XGBoost, Random Forest) to predict price shifts.',
     href: 'https://github.com/rodrigoanasco/Sentiment-Based-Stock-Market-Predictor',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
@@ -222,29 +156,14 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight5.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'Python', path: '/assets/python.svg' },
+      { id: 2, name: 'FinBERT', path: '/assets/finbert.png' },
+      { id: 3, name: 'Scikit-learn', path: '/assets/scikitlearn.png' },
+      { id: 4, name: 'Pandas', path: '/assets/pandas.png' },
     ],
   },
 ];
+
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
@@ -260,29 +179,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'SubVision Robotics',
+    pos: 'Software Developer',
+    duration: 'Feb 2025 - Present',
+    title:
+      "Implemented a Coverage Path Planning Algorithm using GBNN for ship hull cleaning robots. Built 3D mapping and obstacle detection pipelines with KDTree and plane fitting, and visualized robot navigation through real-time 3D simulations.",
+    icon: '/assets/project-logo4.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'Unify (Enactus SFU)',
+    pos: 'Software Coordinator',
+    duration: 'Feb 2025 - Present',
+    title:
+      "Developing Unify, a React Native app supporting immigrants in Canada. Integrated Supabase for secure authentication and real-time data, built AI-driven features, and managed Agile sprints and technical documentation.",
+    icon: '/assets/project-logo1.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Fraser International College',
+    pos: 'Peer Educator',
+    duration: 'Aug 2023 - Apr 2024',
+    title:
+      "Tutored computing and math courses, created study materials, and helped students improve understanding and performance through personalized guidance and collaboration with instructors.",
+    icon: '/assets/fic.jpg',
     animation: 'salute',
   },
 ];
