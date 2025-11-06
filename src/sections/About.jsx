@@ -21,7 +21,7 @@ const About = () => {
                         <p className='grid-headtext'>About me</p>
                         <p className='grid-subtext'>
                             I’m a Computer Science student at Simon Fraser University, originally from Peru and now living in Canada. I’m passionate about Computer Vision, 
-                            AI, and full-stack development. Currently working on Unify (a mobile app supporting immigrants) and SubVision Robotics (where I am in chare of implementing
+                            AI, and full-stack development. Currently working on Unify (a mobile app supporting immigrants) and SubVision Robotics (where I am in charge of implementing
                             a neural-inspired path planning project). I love exploring new challenges and collaborating on impactful AI and machine learning projects.
                         </p>
                     </div>
